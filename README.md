@@ -2,7 +2,7 @@
 You can colonize the computer as europeans once did
 
 ## INTRODUCTION ##
-Colony is a stupid tool that you can do something in your file system.You can use it on April Fool's Day,to hack other's computer or public computer.First I want to do this because my classmate @@trustgit want to copy a very funny vedio on our school computer.So I made a windows version. But you must be a administrator.
+Colony is a stupid tool that you can do something in your file system.You can use it on April Fool's Day,to hack other's computer or public computer.First I want to do this because my classmate @ trustgit want to copy a very funny vedio on our school computer.So I made a windows version. But you must be a administrator.
 
 The first version was called "Quentin". It can copy a file in each dictionary.
 
