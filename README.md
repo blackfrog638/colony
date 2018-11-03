@@ -7,3 +7,9 @@ Colony is a stupid tool that you can do something in your file system.You can us
 The first version was called "Quentin". It can copy a file in each dictionary.
 
 But now , the project"colony" is more like a history simulator.In different dictionary, you can do different things.
+
+## COMMAND ##
+Colony has some command,they are used to copy many things:  
+gui ------------------------------to get the GUI
+copy {dictionary} {dictionary} ---to copy a dictionary in another
+colonize {file} {dictionary} -----to copy a file in every dictionary
