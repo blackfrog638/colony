@@ -6,7 +6,7 @@
 #include<cstring>
 #include<string>
 
-// Òª¿ªÑ§ÁË£¬¾ÈÃü 
+
 using namespace std;
 char code[10000];
 char path[10000];
@@ -25,9 +25,9 @@ int main() {
 	int detect(int item , int iter);
 	char key[] = "tree ";
 	strcat(code, key);
-	cout<<"ÇëÊäÈë¸´ÖÆ¸ùÄ¿Â¼"; 
+	cout<<"è¯·è¾“å…¥å¤åˆ¶æ ¹ç›®å½•"; 
 	cin.getline(path,10000);
-	cout<<"ÇëÊäÈë¸´ÖÆµÄÎÄ¼ş";
+	cout<<"è¯·è¾“å…¥å¤åˆ¶çš„æ–‡ä»¶";
 	cin.getline(cpy,10000);
 	strcat(code, path);
 	char key2[] = " > c:\\1.txt";
@@ -43,10 +43,10 @@ int main() {
 //		cout<<endl;
 //	}
 	
-	//©À:-87 -64 1
-	//©¤:-87 -92 0
-	//©¸:-87 -72 2
-	//©¦:-87 -90 3
+	//â”œ:-87 -64 1
+	//â”€:-87 -92 0
+	//â””:-87 -72 2
+	//â”‚:-87 -90 3
 	for(int i = 1 ; i<length;i++){
 		keling = -1;
 		for(int j = 0;j< trees[i].size();j++){
@@ -69,8 +69,8 @@ int main() {
 //	for(int i = 3;i<length;i++){
 //		cout<<"name = "<<name[i]<<" \t\t\t\t\t , space = "<<space[i]<<endl;	
 //	}
-	//ÌÖÑá×öÕâ²¿·Ö
-	//ÈÃÎÒÏëÆğÁË×öOIµÄ¸Ğ¾õ 
+	//è®¨åŒåšè¿™éƒ¨åˆ†
+	//è®©æˆ‘æƒ³èµ·äº†åšOIçš„æ„Ÿè§‰ 
 	for(int i = 3;i<length;i++){
 		int j;
 		j = i;
@@ -129,10 +129,10 @@ void readTxt(string file)
 
 int detect(int item , int iter){
 	//mkey, I'll remember this f*cking part 
-	//©À:-87 -64
-	//©¤:-87 -92
-	//©¸:-87 -72
-	//©¦:-87 -90
+	//â”œ:-87 -64
+	//â”€:-87 -92
+	//â””:-87 -72
+	//â”‚:-87 -90
 	if(trees[item][iter] == -87){
 		if(trees[item][iter+1] == -64){
 			return 1;
