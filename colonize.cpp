@@ -1,3 +1,7 @@
+/*windows only
+*if you are mac or linux Imust say sorry because I'm doing that
+*/
+
 #include<iostream>
 #include<vector>
 #include<fstream>
